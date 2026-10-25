@@ -1,0 +1,70 @@
+=== Task 6: Practice Programs ===
+
+--- Program 1: Leap Year Checker (2020 to 2030) ---
+2020 is a leap year
+2021 is not a leap year
+2022 is not a leap year
+2023 is not a leap year
+2024 is a leap year
+2025 is not a leap year
+2026 is not a leap year
+2027 is not a leap year
+2028 is a leap year
+2029 is not a leap year
+2030 is not a leap year
+1900 leap year? false
+2000 leap year? true
+2100 leap year? false
+
+--- Program 2: Prime Numbers from 1 to 30 ---
+Primes: 2 3 5 7 11 13 17 19 23 29
+Total primes found: 10
+
+--- Program 3: FizzBuzz (1 to 15) ---
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+
+--- Program 4: Digit Sum, Reverse and Palindrome ---
+12345 -> digit sum: 15, reversed: 54321, palindrome: false
+121 -> digit sum: 4, reversed: 121, palindrome: true
+1200 -> digit sum: 3, reversed: 21, palindrome: false
+0 -> digit sum: 0, reversed: 0, palindrome: true
+-5 -> Invalid (use a whole number that is 0 or more)
+3.5 -> Invalid (use a whole number that is 0 or more)
+
+--- Program 5: Celsius to Fahrenheit Table ---
+0 C = 32 F (Cold)
+20 C = 68 F (Pleasant)
+40 C = 104 F (Hot)
+60 C = 140 F (Hot)
+80 C = 176 F (Hot)
+100 C = 212 F (Hot)
+
+--- Program 6: Factorials and Fibonacci ---
+0! = 1
+1! = 1
+2! = 2
+3! = 6
+4! = 24
+5! = 120
+6! = 720
+7! = 5040
+8! = 40320
+9! = 362880
+10! = 3628800
+First 10 Fibonacci numbers: 0 1 1 2 3 5 8 13 21 34
+
+All practice programs finished.

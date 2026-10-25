@@ -1,0 +1,64 @@
+=== Task 4: Conditional Statements ===
+
+--- 1. Positive / Negative / Zero ---
+5     -> Positive
+-12   -> Negative
+0     -> Zero
+0.5   -> Positive
+'abc' -> Invalid input: not a number
+
+--- 2. Even / Odd ---
+10  -> Even
+7   -> Odd
+0   -> Even
+-4  -> Even
+-3  -> Odd
+2.5 -> Invalid input: use a whole number
+
+--- 3. Age eligibility (voting age 18) ---
+Age 25  -> Eligible to vote
+Age 18  -> Eligible to vote
+Age 17  -> Not eligible (needs 1 more year(s))
+Age 0   -> Not eligible (needs 18 more year(s))
+Age -5  -> Invalid age
+Age 150 -> Invalid age
+Age '20' (text) -> Invalid age
+
+--- 4. Nested if (driving license) ---
+Age 20, ID yes, test passed    -> License approved
+Age 20, ID yes, test failed    -> License denied: driving test not passed
+Age 20, ID missing             -> License denied: ID proof missing
+Age 16, ID yes, test passed    -> License denied: must be 18 or older
+
+--- 5. Greatest of two numbers ---
+(8, 3)   -> Greatest is 8
+(2, 9)   -> Greatest is 9
+(5, 5)   -> Both numbers are equal (5)
+(-1, -6) -> Greatest is -1
+
+--- 6. Greatest of three numbers ---
+(5, 9, 3)     -> Greatest is 9
+(10, 4, 7)    -> Greatest is 10
+(1, 2, 3)     -> Greatest is 3
+(10, 10, 5)   -> Greatest is 10
+(7, 7, 7)     -> Greatest is 7
+(-1, -5, -3) -> Greatest is -1
+
+--- 7. Grade calculation (marks 0 to 100) ---
+Marks 100  -> Grade A+ (Outstanding)
+Marks 95   -> Grade A+ (Outstanding)
+Marks 90   -> Grade A+ (Outstanding)
+Marks 89.5 -> Grade A (Excellent)
+Marks 75   -> Grade B (Good)
+Marks 65   -> Grade C (Average)
+Marks 50   -> Grade D (Pass)
+Marks 49   -> Grade F (Fail)
+Marks 0    -> Grade F (Fail)
+Marks -1   -> Invalid marks (must be a number from 0 to 100)
+Marks 101  -> Invalid marks (must be a number from 0 to 100)
+Marks 'abc'-> Invalid marks (must be a number from 0 to 100)
+Marks NaN  -> Invalid marks (must be a number from 0 to 100)
+
+--- 8. Logical conditions ---
+Warm and dry: good day for a walk.
+It is the weekend.

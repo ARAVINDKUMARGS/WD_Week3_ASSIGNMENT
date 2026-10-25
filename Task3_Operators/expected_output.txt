@@ -1,0 +1,62 @@
+=== Task 3: Operators ===
+
+--- 1. Arithmetic operators ---
+x = 15 , y = 4
+x + y  (addition)       = 19
+x - y  (subtraction)    = 11
+x * y  (multiplication) = 60
+x / y  (division)       = 3.75
+x % y  (remainder)      = 3
+x ** y (power)          = 50625
+10 / 0  = Infinity
+0 / 0   = NaN
+10 % 0  = NaN
+0.1 + 0.2 = 0.30000000000000004
+'5' + 5 = 55
+'5' - 2 = 3
+
+--- 2. Assignment operators ---
+score = 10        -> 10
+score += 5        -> 15
+score -= 3        -> 12
+score *= 2        -> 24
+score /= 4        -> 6
+score %= 4        -> 2
+score **= 3       -> 8
+
+--- 3. Comparison operators ---
+num1 = 10 , num2 = 20
+num1 == num2  : false
+num1 != num2  : true
+num1 > num2   : false
+num1 < num2   : true
+num1 >= 10    : true
+num2 <= 15    : false
+5 == '5'      : true
+5 === '5'     : false
+5 != '5'      : false
+5 !== '5'     : true
+Tip: prefer === and !== because they avoid surprising type conversion.
+
+--- 4. Logical operators ---
+isAdult = true , hasTicket = false
+isAdult && hasTicket : false
+isAdult || hasTicket : true
+!isAdult             : false
+!hasTicket           : true
+age > 18 && age < 60  : true
+age < 18 || age > 60  : false
+!(age > 18)           : false
+
+--- 5. Increment and decrement operators ---
+counter starts at: 5
+counter++ gives   : 5
+counter is now    : 6
+++counter gives   : 7
+counter is now    : 7
+counter-- gives   : 7
+counter is now    : 6
+--counter gives   : 5
+counter is now    : 5
+After q = p++ -> p: 6 , q: 5
+After s = ++r -> r: 6 , s: 6

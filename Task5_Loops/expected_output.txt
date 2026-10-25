@@ -1,0 +1,64 @@
+=== Task 5: Loops ===
+
+--- 1. Print numbers 1 to 10 ---
+for         : 1 2 3 4 5 6 7 8 9 10
+while       : 1 2 3 4 5 6 7 8 9 10
+do...while  : 1 2 3 4 5 6 7 8 9 10
+
+--- 2. Even numbers from 1 to 20 ---
+Jump by 2        : 2 4 6 8 10 12 14 16 18 20
+Using n % 2 === 0: 2 4 6 8 10 12 14 16 18 20
+
+--- 3. Odd numbers from 1 to 20 ---
+while (jump by 2): 1 3 5 7 9 11 13 15 17 19
+
+--- 4. Multiplication tables ---
+Table of 5 (for):
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+Table of 7 (while):
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+7 x 10 = 70
+Table of 9 (do...while):
+9 x 1 = 9
+9 x 2 = 18
+9 x 3 = 27
+9 x 4 = 36
+9 x 5 = 45
+9 x 6 = 54
+9 x 7 = 63
+9 x 8 = 72
+9 x 9 = 81
+9 x 10 = 90
+
+--- 5. Sums ---
+Sum of 1 to 100 (for)         : 5050
+Sum of 1 to 10 (while)        : 55
+Sum of evens 2 to 20 (do...while): 110
+Sum of odds 1 to 19 (for)     : 100
+
+--- 6. Reverse counting ---
+10 down to 1 (for)        : 10 9 8 7 6 5 4 3 2 1
+20 down to 2 by 2 (while)  : 20 18 16 14 12 10 8 6 4 2
+5 down to 1 (do...while)   : 5 4 3 2 1
+Blast off!
+
+--- 7. while vs do...while (condition already false) ---
+while loop: body ran 0 times.
+do...while loop: body ran once even though 100 < 5 is false.

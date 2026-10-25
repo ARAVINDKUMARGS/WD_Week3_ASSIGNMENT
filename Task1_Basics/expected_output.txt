@@ -1,0 +1,17 @@
+Comment demo value: 10
+=== Task 1: JavaScript Basics ===
+Hello, InternNova!
+100
+true
+Name: Aravind Kumar GS | Week: 3
+myName = Aravind
+myname = Kumar
+JavaScript is case-sensitive, so these are two different variables.
+Total of 12 and 8 is 20
+Step 1
+Step 2
+Step 3
+I am inside a block.
+Learning JavaScript in Week 3
+Learning JavaScript in Week 3
+basics.js has finished running. If you see this in the browser, it is linked to index.html.

@@ -1,0 +1,50 @@
+=== Task 2: Variables and Data Types ===
+
+--- 1. let ---
+studentName: Aravind Kumar GS
+studentScore: 85
+studentScore after reassignment: 90
+
+--- 2. const ---
+courseName: JavaScript Fundamentals
+PI_VALUE: 3.14159
+Cannot change a const -> TypeError: Assignment to constant variable.
+PI_VALUE is still: 3.14159
+
+--- 3. Declaration and assignment ---
+city after declaration: undefined
+city after assignment: Madurai
+currentYear: 2026
+a, b, c: 1 2 3
+
+--- 4. Data types and typeof ---
+String examples: Hello | Single quotes work too | Template literal: Hello, Aravind Kumar GS
+typeof greeting: string
+Number examples: 42 3.14 -7
+typeof wholeNumber: number
+typeof decimalNumber: number
+Boolean examples: true false
+typeof isLoggedIn: boolean
+notAssigned: undefined
+typeof notAssigned: undefined
+emptyValue: null
+typeof emptyValue: object
+
+--- 5. The typeof null quirk ---
+typeof null gives: object (a historical quirk)
+Is emptyValue really null? -> true
+Is emptyValue a real object? -> false
+
+--- 6. undefined vs null ---
+undefined == null  : true
+undefined === null : false
+typeof neverDeclaredVariable: undefined
+
+--- 7. Summary of typeof results ---
+typeof 'text'    -> string
+typeof 100       -> number
+typeof 2.5       -> number
+typeof true      -> boolean
+typeof undefined -> undefined
+typeof null      -> object
+typeof NaN       -> number (NaN means 'Not a Number' but is still of type number)
